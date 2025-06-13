@@ -1,7 +1,7 @@
 # Gimme
 > `gi`t `m`eta  ga`me` 
 
-A simple git clone wrapper that clones to a repository directory by default
+A simple git clone wrapper that clones to a set repository directory by default
 
 ```
 Usage:
