@@ -23,7 +23,7 @@ Options:
 
 !!! Options Not Implemented !!!:
     -s, spawn <repo>
-        create and/or clone <repo> from a list of predefined remotes.
+        create and/or clone <repo> from a list of remotes (i.e. github, gitlab, sourcehut)
     -m, modify
         set remote repo options.
     -c, config 
