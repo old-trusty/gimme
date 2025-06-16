@@ -5,9 +5,13 @@ A simple git clone wrapper + multitool that clones to a directory in a set repos
 
 ```help
 Usage:
-    gm [options] <repo> <group> <alias>
+    gm [options] [tools] <repo> <group> <alias>
         or
     gm <repo>
+
+Options:
+    -h, --help
+        print this help message.
 
 Arguments:
     <repo>
@@ -17,11 +21,7 @@ Arguments:
     <alias>
         what to  call give <repo> directory.
 
-Options:
-    -h, --help
-        print this help message.
-
-!!! Options Not Implemented !!!:
+!!! tools Not Implemented !!!:
     -s, spawn <repo>
         create and/or clone <repo> from a list of remotes (i.e. github, gitlab, sourcehut)
     -m, modify
